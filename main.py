@@ -41,6 +41,6 @@ class PaintApp:
 
 if __name__ == '__main__':
     root = Tk()
-    root.title("TkPaint")
+    root.title("TkPaint") #Only line edited by me (I changed the title)
     paint_app = PaintApp(root)
     root.mainloop()
