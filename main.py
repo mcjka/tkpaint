@@ -26,6 +26,15 @@ class PaintApp:
     def paint(self, event):
         if self.start_x and self.start_y:
             self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
+            self.canvas.create_line(self.start_x, self.start_y, event.x, event.y, width=self.lineWidth, fill=self.color)
         self.start_x = event.x
         self.start_y = event.y
 
